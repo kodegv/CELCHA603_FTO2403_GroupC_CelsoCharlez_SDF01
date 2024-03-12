@@ -8,9 +8,14 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="navbar">
+      <div class="title-bar">
         <header>
-          <h1 id="top-heading">CodeSpace Cat's Portfolio</h1>
+          <div class="top-heading">
+            <h1>CodeSpace Cat Portfolio</h1>
+            <div class="contact-link">
+              <p><a href="#contact_details">Get in contact</a></p>
+            </div>
+          </div>
         </header>
       </div>
       <div class="content-body">
@@ -18,7 +23,83 @@
       </div>
     </div>
     <section id="about-me">
-      <img src="https://i.imgur.com/mATtpfi.png" alt="My Profile Picture" />
+      <div class="avatar-img">
+        <img src="./assets/cat.png" alt="My Profile Picture" />
+      </div>
     </section>
+    <div class="about-text">
+      <p>
+        Meow! 🐾 I'm the purr-fect representation of the CodeSpace spirit,
+        embodying curiosity, playfulness, and a love for all things tech. With
+        my whiskers finely tuned to detect bugs and my paws ready to type away
+        on keyboards, I navigate the digital world with ease. Whether it's
+        debugging code or lounging on a warm laptop, you'll find me at the heart
+        of all things tech at CodeSpace. When I'm not busy chasing virtual mice
+        or napping in the sunbeam of a computer monitor, I enjoy scratching
+        posts and dreaming of electric catnip. Join me on this feline adventure
+        through the world of coding and creativity!
+      </p>
+    </div>
+    <div class="work-text">
+      <p>Check out some of my work!</p>
+      <img
+        src="./assets/cat-icon.png"
+        width="100px"
+        alt="Small, grey cartoon cat"
+      />
+    </div>
+    <div class="examples-imgs">
+      <section id="table-images">
+        <div class="examples-imgs">
+          <section id="table-images">
+            <div class="image-container">
+              <img
+                id="image-1"
+                src="./assets/kitty-landing.png"
+                alt="Thumbnail for Purrfect Landing Page"
+              />
+              <img
+                id="image-2"
+                src="./assets/kitty-commerce.png"
+                alt="Thumbnail for Kitty Commerce"
+              />
+              <img
+                id="image-3"
+                src="./assets/cat-chat.png"
+                alt="Thumbnail for CatChat Social"
+              />
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <section id="contact-info">
+      <div class="contact-section">
+        <p><a id="contact_details">Contact Details</a></p>
+      </div>
+    </section>
+    <div class="form-container">
+      <form id="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="user-email">Email:</label>
+          <input type="email" id="user-email" name="user-email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="subscribe">Subscribe to my personal blog</label>
+          <input type="checkbox" id="subscribe" name="subscribe" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <footer class="author-footer">
+      <p>Portfolio made by: Celso Charlez</p>
+      <p>
+        Celso's <a href="https://github.com/kodegv" target="_blank">GitHub</a>
+      </p>
+    </footer>
   </body>
 </html>
