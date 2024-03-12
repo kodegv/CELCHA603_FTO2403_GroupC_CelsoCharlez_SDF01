@@ -1,0 +1,26 @@
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #525252;
+  background-color: rgba(232, 137, 74, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #6b6b6b;
+  border: 0;
+  border-radius: 30px;
+}
+
+body {
+  background-image: url(assets/desk.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+#top-heading {
+  font-weight: bolder;
+}
+
+#about-me {
+  margin: 200px;
+}
