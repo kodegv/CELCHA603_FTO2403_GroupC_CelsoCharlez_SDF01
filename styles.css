@@ -158,6 +158,7 @@ button {
   justify-content: center;
 }
 
+/* Author text and GitHub link */
 .author-footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
